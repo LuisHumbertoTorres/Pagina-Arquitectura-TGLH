@@ -1,0 +1,265 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIDAD 2</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <a name="inicio"></a>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Arquitectura de Computadoras.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="index.html" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#footer" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#footer" class="nav__links">Contacto</a>
+                </li>
+
+                <img src="close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <ul class="nav_link2">
+                <h1 class="hero__title">UNIDAD 2</h1>
+                <a href="Unidad1.html" class="cta">UNIDAD 1
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                </a>
+                <a href="Unidad2.html" class="cta">UNIDAD 2
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                </a>
+                <br>
+                <br>
+                <a href="Unidad3.html" class="cta">UNIDAD 3
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                </a>
+                <a href="Unidad4.html" class="cta">UNIDAD 4
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                </a>                  
+            </ul>         
+        </section>
+    </header>
+
+<!---------------------------------- AQUI EMPIEZA EL SIGUIENTE TEMA DE LA UNIDAD 2---------------------------------->
+
+    <section class="fondo">
+        <div class="knowledge__container container">
+            <div class="knowledege__texts">
+                <h2 class="subtitle">2.1-.Ciclo de Instruccion</h2>
+                <p class="knowledge__paragraph">El Ciclo Instrucción cuenta con dos fases, la primera es la obtención
+                    (búsqueda) y la segunda es la fase de ejecución:</p><br>
+            </div>
+            <figure class="knowledge__picture">
+                <img src="ciclo.png" class="knowledge__img" >
+            </figure>
+        </div>
+    </section>
+
+<!---------------------------------- AQUI EMPIEZA EL SIGUIENTE TEMA DE LA UNIDAD 2---------------------------------->
+
+    <section class="fondo2">
+        <div class="knowledge__container container">
+            <div class="knowledege__texts">
+                <h6 class="subtitle3">2.1.1-.Ciclo Fetch-Decode-Execute.</h6>
+                <p class="knowledge__paragraph">Un ciclo de instrucción (también llamado ciclo de fetch-and-execute
+                    o ciclo de fetch-decode-execute en inglés) es el período que tarda la
+                    unidad central de procesamiento (CPU) en ejecutar una instrucción
+                    de lenguaje máquina.</p><br>
+                <img src="ciclo2.png" class="knowledge__img">
+            </div>  
+            <figure class="knowledge__picture">     
+                <p class="knowledge__paragraph">Comprende una secuencia de acciones determinada que debe llevar
+                    a cabo el CPU para ejecutar cada instrucción en un programa. Cada
+                    instrucción del juego de instrucciones de un CPU puede requerir
+                    diferente número de ciclos de instrucción para su ejecución. Un
+                    ciclo de instrucción está formado por uno o más ciclos máquina.
+                    Para que cualquier sistema de proceso de datos basado en
+                    microprocesador (por ejemplo un ordenador o computadora
+                    personal) o microcontrolador (por ejemplo un reproductor de MP3)
+                    realice una tarea (programa) primero debe buscar cada instrucción
+                    en la memoria principal y luego ejecutarla.</p><br>
+            </figure>          
+        </div>
+    </section>
+
+<!---------------------------------- AQUI EMPIEZA EL SIGUIENTE TEMA DE LA UNIDAD 2---------------------------------->
+
+    <section class="fondo">
+        <div class="knowledge__container container">
+            <div class="knowledege__texts">
+                <h6 class="subtitle3">2.1.2-.Segmentación de instrucciones.</h6>
+                <p class="knowledge__paragraph">El objetivo de la segmentación es ejecutar simultáneamente
+                    diferentes etapas de distintas instrucciones, lo cual permite aumentar
+                    el rendimiento del procesador sin tener que hacer más rápidas todas
+                    las unidades del procesador (ALU, UC, buses, etc.) y sin tener que
+                    duplicarlas. La división de la ejecución de una instrucción en diferentes etapas se
+                    debe realizar de tal manera que cada etapa tenga la misma duración,
+                    generalmente un ciclo de reloj.</p><br>
+            </div>
+            <figure class="knowledge__picture">
+                <p class="knowledge__paragraph">Es necesario añadir registros para almacenar los resultados
+                    intermedios entre las diferentes etapas, de modo que la información
+                    generada en una etapa esté disponible para la etapa siguiente.</p><br>
+                <p class="knowledge__paragraph">La segmentación es como una cadena de montaje. En cada etapa de
+                    la cadena se lleva a cabo una parte del trabajo total y cuando se
+                    acaba el trabajo de una etapa.
+                    El producto pasa a la siguiente y así sucesivamente hasta llegar al
+                    final.</p><br>
+            </figure>
+        </div>
+    </section>
+
+<!---------------------------------- AQUI EMPIEZA EL SIGUIENTE TEMA DE LA UNIDAD 2---------------------------------->
+
+    <section class="fondo2">
+        <div class="knowledge__container container">
+            <div class="knowledege__texts">
+                <h6 class="subtitle3">2.1.3-.Ciclo Fetch-Decode-Execute.</h6>
+                <p class="knowledge__paragraph">La segmentación de instrucciones es similar al uso de una cadena de
+                    montaje en una fábrica de manufacturación. En las cadenas de
+                    montaje, el producto pasa a través de varias etapas de producción
+                    antes de tener el producto terminado. Cada etapa o segmento de la
+                    cadena está especializada en un área específica de la línea de
+                    producción y lleva a cabo siempre la misma actividad. Esta
+                    tecnología es aplicada en el diseño de procesadores eficientes.</p><br>
+                    <p class="knowledge__paragraph">A estos procesadores se les conoce como pipeline processors.
+                        Estos están compuestos por una lista de segmentos lineales y secuenciales
+                        en donde cada segmento lleva a cabo una tarea o un grupo de tareas
+                        computacionales. Los datos que provienen del exterior se introducen
+                        en el sistema para ser procesados.</p><br>
+            </div>  
+            <figure class="knowledge__picture">     
+                <p class="knowledge__paragraph">La computadora realiza operaciones con los datos que tiene
+                    almacenados en memoria, produce nuevos datos o información para
+                    uso externo.</p><br>
+                <p class="knowledge__paragraph">Las arquitecturas y los conjuntos de instrucciones se pueden
+                    clasificar considerando aspectos posibles: Almacenamiento de operandos en la CPU: dónde se ubican los
+                    operandos aparte de la memoria.</p><br>
+                <p class="knowledge__paragraph">Número de operandos explícitos por instrucción: cuántos operandos
+                    se expresan en forma explícita en una instrucción típica. Como son 0,1,2,3.</p><br>
+            </figure>          
+        </div>
+    </section>
+
+<!---------------------------------- AQUI EMPIEZA EL SIGUIENTE TEMA DE LA UNIDAD 2---------------------------------->
+
+    <section class="fondo">
+        <div class="knowledge__container container">
+            <div class="knowledege__texts">
+                <h6 class="subtitle3">2.1.4-.Modos de Direccionamiento.</h6>
+                <p class="knowledge__paragraph">Distintas formas que tiene la arquitectura para especificar la ubicación de los operandos.</p><br>
+                <p class="knowledge__paragraph"><strong>Objetivos:</strong><br>
+                    <ul class="knowledge__paragraph">
+                        <li>Reducir el número de bits para especificar un operando en memoria.</li>
+                        <li>Dar soporte a las estructuras de datos de alto nivel.</li>
+                    </ul>
+                </p><br>
+                <p class="knowledge__paragraph"><strong>Pueden ser:</strong><br>
+                    <ul class="knowledge__paragraph">
+                        <li>Para datos, sobre los que opera la instrucción.</li>
+                        <li>Para instrucciones, especifica la dirección de la siguiente instrucción a ejecutar (en instrucciones de control).</li>
+                    </ul>
+                </p><br>
+                <img src="direccion.png" class="knowledge__img"><br><br>
+                <h6 class="subtitle3">2.1.4.1-.Necesidades de direccionamiento.</h6>
+                <p class="knowledge__paragraph">Dónde puede estar un operando:
+                    <ul class="knowledge__paragraph">
+                        <li>En la propia instrucción.</li>
+                        <li>En un registro.</li>
+                        <li>En memoria</li>
+                    </ul>
+                </p><br>
+                <p class="knowledge__paragraph"><strong>Direccionamiento por registro: </strong>
+                    El campo de dirección especifica un registro donde está el operando.</p><br>
+                <img src="direccion2.png" class="knowledge__img"><br>
+                <p class="knowledge__paragraph"><strong>Direccionamiento Inmediato: </strong>
+                    El operando está en la instrucción.</p><br>
+                <img src="direccion3.png" class="knowledge__img"><br>
+            </div>
+            <figure class="knowledge__picture">
+                <p class="knowledge__paragraph"><strong>Direccionamiento directo: </strong>
+                    El campo de dirección contiene la dirección efectiva del operando.</p><br>
+                <img src="direccion4.png" class="knowledge__img"><br>
+                <p class="knowledge__paragraph"><strong>Direccionamiento indirecto por registro: </strong>
+                    Se especifica un registro donde está la dirección del operando.</p><br>
+                <img src="direccion5.png" class="knowledge__img"><br>
+                <p class="knowledge__paragraph"><strong>Direccionamiento indirecto por memoria: </strong>
+                    El campo de direcciones contiene la dirección de una palabra donde está
+                    la dirección del operando.</p><br>
+                <img src="direccion6.png" class="knowledge__img"><br>
+                <p class="knowledge__paragraph"><strong>Direccionamiento base + desplazamiento: </strong>
+                    Combina posibilidades del directo (facilidad de uso) y del indirecto por
+                    registro (menos bits para especificar dirección). Habrá que especificar un
+                    registro y un valor. La suma del contenido del registro y el valor es la dirección
+                    del operando.</p><br>
+                <img src="direccion7.png" class="knowledge__img"><br>
+            </figure>
+        </div>
+    </section>
+
+<!---------------------------------- AQUI EMPIEZA EL SIGUIENTE TEMA DE LA UNIDAD 2---------------------------------->
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Arquitectura de Computadoras.</h2>
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="index.html" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#acerca_de" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#footer" class="nav__links">Contacto</a>
+                    </li>
+                </ul>            
+            </nav>
+            <div class="nav__link nav__link--footer">
+                <img class="img" src="tecnm.png" alt="">
+            </div> 
+        </section>    
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://www.facebook.com/profile.php?id=100005265767901" class="footer__icons"><img src="facebook.svg" class="footer__img"></a>
+                <a href="https://www.instagram.com/luis_humbertot/" class="footer__icons"><img src="insta.svg" class="footer__img"></a>
+                <a href="https://www.youtube.com/channel/UCkb2XOW86VSIt5lc0w6Pltw" class="footer__icons"><img src="youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Luis Humberto</h3>
+        </section>
+    </footer>
+
+    <script src="slider.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
